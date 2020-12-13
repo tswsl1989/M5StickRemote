@@ -1,0 +1,8 @@
+#include "config.h"
+
+Preferences prefs;
+const char *WiFiSSID[numNetworks] { "Network1, "Network2", "Network3"};
+const char *WiFiPSK[numNetworks] = { "N1PSK", "N2PSK", "N3PSK"};
+
+const String serverName = "home-assistant-host-name:and-port";
+const String hassToken = "long-lived-acces-token";

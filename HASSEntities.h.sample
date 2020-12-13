@@ -1,0 +1,9 @@
+// Number of entries
+#define numHASSEntities 5
+const HASSEntity HASSEntities[numHASSEntities] = {
+  {"light.bedroom_downlight", "Bedroom: Ceiling"},
+  {"light.lr_lamp", "LR: Lamp"},
+  {"switch.bedroom_fan", "Bedroom: Fan"},
+  {"switch.sleep_mode_sw", "Sleep Mode"},
+  {"", "Exit"} // Must end with a blank entity ("") - label as appropriate
+};
